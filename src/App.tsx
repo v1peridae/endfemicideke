@@ -14,8 +14,7 @@ function App() {
           <br />
           <br />
           Kenya has been facing an ongiong femicide and increased gender based violence. As I write this, I feel worried. Worried about what
-          if it's someone else tomorrow? What if it's me tomorrow? In all honesty, I'm scared. May all the victims rest in peace and may all
-          the survivors find peace and healing as they heal from such traumatic experiences.
+          if it's someone else tomorrow? What if it's me tomorrow? In all honesty, I'm scared.
         </p>
 
         <div className="w-full md:max-w-2xl mx-auto mt-10">
