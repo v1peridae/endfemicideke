@@ -4,7 +4,7 @@ function App() {
       <div className="mx-4 md:mx-60 pb-10">
         <h1 className="text-2xl md:text-8xl font-AveriaSerifLibre text-center mt-10">#endfemicideke</h1>
         <p className="text-center mt-3 text-3xl font-bold font-AveriaSerifLibre underline">
-          <a className="text-red-800" href="tel:1195">
+          <a className="text-center text-red-800" href="tel:1195">
             Please click this if you are in immediate danger
           </a>
         </p>
@@ -13,7 +13,7 @@ function App() {
           traumatic experiences.
           <br />
           <br />
-          Kenya has been facing an ongiong femicide and increased gender based violence. As I write this, I feel worried. Worried about what
+          Kenya has been facing an ongoing femicide and increased gender based violence. As I write this, I feel worried. Worried about what
           if it's someone else tomorrow? What if it's me tomorrow? In all honesty, I'm scared.
         </p>
 
@@ -63,7 +63,7 @@ function App() {
               <div className="relative flex items-start">
                 <div className="h-5 w-5 rounded-full border-4 border-black bg-black absolute left-0"></div>
                 <div className="ml-10 md:ml-16">
-                  <h3 className="font-AveriaSerifLibre text-2xl md:text-4xl -mt-2">Febuary To July</h3>
+                  <h3 className="font-AveriaSerifLibre text-2xl md:text-4xl -mt-2">February To July</h3>
                   <p className="mt-2 text-black font-Quattrocento font-bold text-lg md:text-2xl">
                     Femicide continued in the country and the government failed to take any significant action.
                   </p>
@@ -97,8 +97,8 @@ function App() {
           <ol className="list-decimal list-inside text-lg md:text-2xl font-bold font-Quattrocento px-4 md:px-20 mt-10">
             <li className="font-Quattrocento px-4 md:px-20 mt-7">
               Please please please dont go anywhere alone regardless of time of day or how safe you think your neighbourhood is. Always have
-              some safety plan in the back of your mind and if you can,make sure you’re sharing your location w someone you trust. Try to be
-              in a group of people if you are going somewhere for the first time. If you are a minor, make sure you are with an adult you
+              some safety plan in the back of your mind and if you can, make sure you’re sharing your location w someone you trust. Try to
+              be in a group of people if you are going somewhere for the first time. If you are a minor, make sure you are with an adult you
               trust. Do not meet anyone for the first time alone regardless of what they tell you.
             </li>
             <li className="font-Quattrocento px-4 md:px-20 mt-7">
@@ -111,9 +111,9 @@ function App() {
               youre in a weird situation where you cannot disengage and leave. Take screenshots, pics, vids; create a record.
             </li>
             <li className="font-Quattrocento px-4 md:px-20 mt-7">
-              If youre can, carry self defense items. a pocket knife for less than 700 shillings.
+              If youre can, carry self defence items. a pocket knife for less than 700 shillings.
               <a className="underline" href="https://www.instagram.com/pepper_spray_ke/?hl=en">
-                This page sells all sorts of self-defense items
+                This page sells all sorts of self-defence items
               </a>
               . And if youre are in danger do your best to make sure everyone around you is alert. Scream, shout, do anything to get
               attention.
@@ -179,10 +179,54 @@ function App() {
             understand the severity of this.
           </p>
           <p className="text-lg md:text-2xl font-bold font-Quattrocento text-center px-4 md:px-20 mt-10 mb-0">
-            BOYCOTT. Boycott organisations and people who have the power to make change but ignore the issue. Boycot people and
+            BOYCOTT. Boycott organisations and people who have the power to make change but ignore the issue. Boycott people and
             organisations supporting police violence. Boycott perpetrators and enablers. Leaving these people and organisations without
             support or a platform will force them to change.
           </p>
+        </section>
+
+        <section className="#sources">
+          <h2 className="text-3xl md:text-4xl font-bold font-AveriaSerifLibre text-center my-10">References & Reads</h2>
+          <ul className="list-decimal list-inside text-lg md:text-2xl font-bold font-Quattrocento px-4 md:px-20 mt-10">
+            <li>
+              <a href="https://www.reuters.com/world/africa/kenyan-police-fire-teargas-protesters-marching-against-femicide-2024-12-10/">
+                Reuters - Kenyan Police Fire Teargas on Protesters Marching Against Femicide
+              </a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://theconversation.com/kenyas-femicide-cases-need-national-action-declare-a-crisis-now-scholar-239140">
+                The Conversation - Kenya's Femicide Cases Need National Action: Declare a Crisis Now
+              </a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://equalmeasures2030.org/blogs/kenyas-urgent-battle-against-femicide/">
+                Equal Measures 2030 - Kenya's Urgent Battle Against Femicide
+              </a>
+            </li>
+            <li className="mt-5">
+              <a href="https://forumciv.org/int/latest/over-20-000-people-march-end-femicide-kenya">
+                Forum Civitas - Over 20,000 People March To End Femicide Kenya
+              </a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://www.instagram.com/feministsinkenya/?hl=en">Instagram - Feminists in Kenya</a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://nation.africa/kenya/news/gender/why-kenya-s-patriarchal-society-continues-to-enable-femicide-and-how-we-must-fight-back-4851690">
+                Nation - Why Kenya's Patriarchal Society Continues to Enable Femicide and How We Must Fight Back
+              </a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://www.cbsnews.com/news/kenya-serial-killer-escape-police-suspected-of-helping-collins-jumaisi/">
+                CBS News - Kenya Serial Killer Escape: Police Suspected of Helping Collins Jumaisi
+              </a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://www.aljazeera.com/news/2024/1/27/femicide-in-kenya-whats-causing-the-frequent-murders-of-women">
+                Aljazeera - Femicide in Kenya: Whats Causing the Frequent Murders of Women?
+              </a>
+            </li>
+          </ul>
         </section>
         <footer>
           <p className="text-md md:text-lg font-bold font-Quattrocento text-center mt-10 border-t-2 border-black pt-10">
