@@ -41,6 +41,17 @@ function App() {
               <div className="relative flex items-start">
                 <div className="h-5 w-5 rounded-full border-4 border-black bg-black absolute left-0"></div>
                 <div className="ml-10 md:ml-16">
+                  <h3 className="font-AveriaSerifLibre text-2xl md:text-4xl -mt-2">October</h3>
+                  <p className="mt-2 text-black font-Quattrocento font-bold text-lg md:text-2xl">
+                    In October, three women, Waris Daud, Nuseiba Dahi and Amina Abdirashad, went missing from Eastleigh, their bodies were
+                    later discovered in Machakos County.
+                  </p>
+                </div>
+              </div>
+
+              <div className="relative flex items-start">
+                <div className="h-5 w-5 rounded-full border-4 border-black bg-black absolute left-0"></div>
+                <div className="ml-10 md:ml-16">
                   <h3 className="font-AveriaSerifLibre text-2xl md:text-4xl -mt-2">September</h3>
                   <p className="mt-2 text-black font-Quattrocento font-bold text-lg md:text-2xl">
                     Rebecca Cheptegei, a Ugandan athlete, was burned alive by her ex-boyfriend here in Kenya, showing the dangers even
