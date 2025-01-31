@@ -17,6 +17,12 @@ function App() {
           if it's someone else tomorrow? What if it's me tomorrow? In all honesty, I'm scared.
         </p>
 
+        <section className="#2024">
+          <p className="text-lg md:text-2xl font-bold font-Quattrocento text-center px-4 md:px-4 pt-10">
+            2024 had a record number of reported femicide cases in Kenya and was recorded as the worst year yet in the country's history.
+          </p>
+        </section>
+
         <div className="w-full md:max-w-2xl mx-auto mt-10">
           <h2 className="text-6xl font-bold font-AveriaSerifLibre text-center my-5">In 2024</h2>
           <div className="relative">
@@ -86,19 +92,42 @@ function App() {
                 <div className="ml-10 md:ml-16">
                   <h3 className="font-AveriaSerifLibre text-2xl md:text-4xl -mt-2">January</h3>
                   <p className="mt-2 text-black font-Quattrocento font-bold text-lg md:text-2xl">
-                    Thousands, predominantly women, marched in Nairobi and other cities to protest the rising cases of femicide, following
-                    the murders of over 14 women, including Starlet Wahu and Rita Waeni all within the first few weeks of January.
+                    Thousands, mostly women, marched in Nairobi and other cities to protest the rising cases of femicide, following the
+                    murders of over 14 women, including Starlet Wahu and Rita Waeni all within the first few weeks of January.
                   </p>
                   <p className="mt-2 text-black font-Quattrocento font-bold text-lg md:text-2xl">
                     A team by the government was formed in the same month to address the issue of femicide but it has proven to be near
-                    useless.
+                    useless. This section by an{" "}
+                    <a
+                      className="underline"
+                      href="https://theconversation.com/femicide-in-kenya-william-ruto-has-set-up-a-task-force-feminist-scholar-explains-its-flaws-248313"
+                    >
+                      article
+                    </a>{" "}
+                    by the Conversation says this best:
                   </p>
-                  <div className="h-5 w-5 rounded-full -mt-8 border-4 border-black bg-black absolute left-0"></div>
+                  <blockquote className="text-md md:text-xl font-AveriaSerifLibres font-bold italic border-l-4 border-gray-800 pl-4  text-gray-900 mb-10">
+                    ...there is a history in Kenya of setting up task forces with financial resources largely directed at remunerating
+                    members and conducting "consultations", only to tell the country what was already known. Consultations are critical for
+                    legitimacy and a base for action. But there are more expedient ways to do this work.
+                  </blockquote>
+
+                  <div className="h-5 w-5 rounded-full border-4 border-black bg-black absolute left-0 -mt-5"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <section className="#femicidecount">
+          <p className="text-lg md:text-2xl font-bold font-AveriaSerifLibre text-center px-4 md:px-20 pt-7 md:pt-10">
+            A database with more reported cases of femicide can be found{" "}
+            <a className="underline" href="https://femicidecount.org/counted-cases/">
+              here
+            </a>
+            .
+          </p>
+        </section>
 
         <section className="#howtostaysafe">
           <h2 className="text-3xl md:text-4xl font-bold font-AveriaSerifLibre text-center my-10">How to stay safe</h2>
@@ -235,6 +264,16 @@ function App() {
             <li className=" mt-5">
               <a href="https://www.aljazeera.com/news/2024/1/27/femicide-in-kenya-whats-causing-the-frequent-murders-of-women">
                 Aljazeera - Femicide in Kenya: Whats Causing the Frequent Murders of Women?
+              </a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://theconversation.com/femicide-in-kenya-william-ruto-has-set-up-a-task-force-feminist-scholar-explains-its-flaws-248313">
+                The Conversation - William Ruto has set up a task force – feminist scholar explains its flaws
+              </a>
+            </li>
+            <li className=" mt-5">
+              <a href="https://www.citizen.digital/news/2024-the-worst-year-for-femicide-in-kenya-as-cases-soar-to-170-n356602">
+                Citizen Digital - 2024: The Worst Year for Femicide in Kenya as Cases Soar to 170
               </a>
             </li>
           </ul>
